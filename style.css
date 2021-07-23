@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+body {
+  background: rgb(200, 197, 244);
+  background: linear-gradient(
+    120deg,
+    rgba(200, 197, 244, 1) 0%,
+    rgba(139, 238, 232, 1) 93%,
+    rgba(174, 230, 241, 1) 100%
+  );
+}
+.main{
+  position: absolute;
+  top: 13%;
+  left: 22%;
+  background-color: white;
+width: 50%;
+text-align: center;
+border-radius: 12px;
+padding:10px
+}
+.heading {
+    font-size: 40px;
+    margin: 20px;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+.field{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 50%;
+    margin-bottom: 32px;
+    padding: 12px;
+    outline:none;
+    font-family: 'Montserrat', sans-serif;
+}
+.button{
+    background: linear-gradient(
+        120deg,
+        rgba(200, 197, 244, 1) 0%,
+        rgba(139, 238, 232, 1) 93%,
+        rgba(174, 230, 241, 1) 100%
+      );
+      border: none;
+      border-radius: 17px;
+      padding:10px;
+      font-size: 16px;
+      margin: 10px;
+      outline: none;
+}
+.button:hover{
+  cursor: pointer;
+}
+.fieldLabel {
+  font-family: 'Montserrat', sans-serif;
+}
